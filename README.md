@@ -1,7 +1,9 @@
 # Finance RAG
 
 ## Project Overview
-This project demonstrates how to recreate OpenAI's function calling capabilities using LangChain and Pydantic for financial applications. It implements a financial Q&A system that can retrieve stock information and analyze market performance.
+This project demonstrates the development of an advanced financial Q&A agent built using LangChain and GPT-3.5-turbo. The system integrates structured tool-calling capabilities with custom Pydantic schemas and implements dynamic prompt routing to create an intelligent financial assistant that can retrieve and analyze stock information through a conversational interface.
+The agent is designed to understand natural language queries about financial markets, intelligently select appropriate tools, and execute relevant API calls to fetch real-time financial data using the Yahoo Finance API (via yfinance) and web-based information using DuckDuckGo.
+
 
 ## Key Focus
 - Recreates the OpenAI function calling process using LangChain's framework

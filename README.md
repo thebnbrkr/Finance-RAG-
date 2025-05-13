@@ -1,4 +1,4 @@
-# Financial Agent: OpenAI Function Calling with LangChain
+# Finance RAG
 
 ## Project Overview
 This project demonstrates how to recreate OpenAI's function calling capabilities using LangChain and Pydantic for financial applications. It implements a financial Q&A system that can retrieve stock information and analyze market performance.
